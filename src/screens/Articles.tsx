@@ -22,6 +22,8 @@ const Articles = () => {
 
   const Navigate = useNavigate();
 
+
+
   const getArticleData = async () => {
     try {
       const query = '*[_type == "articlesData"]';

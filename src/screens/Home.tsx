@@ -18,7 +18,7 @@ import { client, urlFor } from "../client";
 import { Link, useNavigate } from "react-router-dom";
 import { dateFn, shortenString } from "../utils";
 import emailjs from "@emailjs/browser";
-import Resume from '../assets/Resume-new.pdf'
+import Resume from '../assets/Resume-latest.pdf' 
 
 const Home = () => {
   interface HeroDataProps {
@@ -212,7 +212,7 @@ const Home = () => {
                   } font-semibold tracking-tight`}
                 >
                   {heroData[0]?.title ||
-                    "Software Engineer, Tech writer and UI/UX designer"}
+                    "Software Engineer, Founder and Tech writer"}
                 </h1>
               </div>
               <div className="mt-6 w-full md:w-[70%]">
